@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    color: #202124;
+}
+
+.navbar {
+    text-align: right;
+}
+.navbar li {
+    display:inline-block;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #242424;
+    font-size: 12px;
+
+}
+a:hover {
+    text-decoration: underline;
+    color: #242424;
+
+}
+
+.searchbar {
+    border-color: rgb(190, 190, 190);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    display: block;
+margin: 14px;
+padding: 14px;
+    width: 500px;
+}
+
+.searchbar1 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    display: block;
+margin: 7px;
+padding: 7px;
+    width: 500px;
+    border-color: rgb(233, 233, 233);
+
+}
+
+.searchbar1:focus {
+    border-color: rgb(73, 122, 255);
+    outline: none;
+  
+}
+.searchbutton {
+    background-color: rgb(245, 245, 245);
+    border-style: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.searchbutton:hover {
+    background-color: rgb(245, 245, 245);
+box-shadow: 0 0 1px 1px #a0a0a0;
+    border-radius: 3px;
+    
+}
+
+
+.center {
+    max-width:30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .acenter {
+    max-width:14%;
+    display: block;
+    width: 14%;
+  }
+
+.text-input-table {
+    width: 95%;
+    margin: 15px 45px;
+}
+.text-input-table tr {
+font-size: 13px;
+}
+
+.text-input-table tr td .searchbutton {
+float: right;
+background-color: #4d90fe;
+color: #fff;
+
+}
+
+.text-input-table tr td .searchbutton:hover {
+    border-style: none;
+    outline: none;
+box-shadow: none;
+border-radius: 0px;
+background-color: #2472f0;
+
+
+    }
+
+    h3{ 
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 20px;
+        color: rgb(218, 3, 3);
+
+    }
