@@ -304,8 +304,9 @@ var simplemaps_usmap_mapdata={
     },
     HI: {
       parent_id: "HI",
-      x: 305,
-      y: 565,
+      x: "884",
+      y: "333",
+      width: 45,
       pill: "yes"
     },
     AK: {
