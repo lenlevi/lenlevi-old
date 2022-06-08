@@ -69,10 +69,14 @@ var simplemaps_usmap_mapdata={
   },
   state_specific: {
     HI: {
-      name: "Hawaii"
+      name: "Hawaii",
+      hide: "yes"
+
     },
     AK: {
-      name: "Alaska"
+      name: "Alaska",
+      hide: "yes"
+
     },
     FL: {
       name: "Florida"
