@@ -992,7 +992,7 @@
       slidesNavPosition: 'bottom',
       scrollBar: false,
       hybrid: false,
-      licenseKey: '',
+      licenseKey: '4653D72A-E19C4F1E-967A2EEE-546D7312',
       credits: {
         "enabled": true,
         "label": '',
