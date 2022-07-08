@@ -3,6 +3,6 @@ const progressBar = () => {
     const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     const scrolled = (winScroll / height) * 100;
     document.getElementById("progressBar").style.width = scrolled + "%";
-    document.getElementById("progressIndicator").innerHTML = "LESEFORTSCHRITT: " + scrolled.toFixed() + "%";
+    document.getElementById("progressIndicator").innerHTML = "Reading: " + scrolled.toFixed() + "%";
   }
   window.onscroll = () => {progressBar()};
